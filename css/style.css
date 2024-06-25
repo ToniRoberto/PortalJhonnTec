@@ -60,7 +60,13 @@ section img{
 .buttonSaibaMais{
     background-color: #000000;
     border: none;
-    border-radius: 4wpx;
+    border-radius: 4px;
+    color: #fff;
+    padding: 15px;
+}
+.buttonSaibaMais:hover{
+    transition: 0.5s;
+    background-color: #00184B;
 }
 .formCabecalho{
     background-color: #F8F9FA;
