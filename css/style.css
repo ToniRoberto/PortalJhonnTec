@@ -1,0 +1,91 @@
+.logoImg{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+/*.confAdd{
+    background-color: green;
+}*/
+.navMenuItens{
+    margin-left: 40%;
+}
+.navMenuItens li{
+    margin-left: 10px;
+}
+.navMenuItens li a{
+    font-weight: bolder;
+    color: blueviolet;
+}
+.navFormBuscar{
+    margin-right: 50px;
+}
+section{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+}
+section img{
+    width: 100%;
+    height: 70vh;
+}
+.containerCabecalho{
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10%;
+}
+.tituloCabecalho{
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:center;
+}
+.tituloCabecalho h1{
+    font-size: 30pt;
+    color: #fff;
+}
+.tituloCabecalho h2{
+    font-size: 15pt;
+    color: #DEC815;
+}
+.buttonSaibaMais{
+    background-color: #000000;
+    border: none;
+    border-radius: 4wpx;
+}
+.formCabecalho{
+    background-color: #F8F9FA;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+form h3{
+    font-size: 26px;
+}
+form h4{
+    font-size: 16px;
+}
+.buttonSubmit{
+    background-color: #00184B;
+    width: 100%;
+}
+.fundoGradiente{
+    z-index: 1;
+    position: absolute;
+    padding: 80px 56px 80px 56px;
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
