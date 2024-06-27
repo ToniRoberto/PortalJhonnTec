@@ -98,6 +98,7 @@ form h4{
 .categorias{
     width: 100%;
     height: 90vh;
+    margin-bottom: 25px;
 }
 .categoriasCatTitulos{
     width: 100%;
@@ -126,6 +127,7 @@ form h4{
     background-color: #00184B;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 5%;
 }
@@ -152,14 +154,45 @@ form h4{
 }
 .cliente{
     width: 100%;
-    height: 70vh;
-    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.clientesTitulos{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.catClientes{
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.flex-container{
+    flex-wrap: wrap;
+}
+.imgClient{
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px 5px #cecece;
 }
 .imgClient img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 10px #cecece;
+    
+    border-radius: 100%;
+}
+.newLatter{
+    background-color: #fff;
+    width: 100%;
+    height: 10vh;
 }
