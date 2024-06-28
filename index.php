@@ -119,13 +119,34 @@
         
     </div>
 </section>
-<div class="newLatter">
-    <form>
-        <div class="mb-3">
-            <input type="email" class="form-control" id="exampleInputemail" placeholder="Seu e-mail..." required>
-        </div>
-        <button type="submit" class="btn btn-primary buttonSubmit">Enviar</button>
-    </form>
+<div class="callMe">
+    <div class="logoCallMe">
+        <img src="./img/logoEmpresa.png" class="logoImgCallMe"> 
+    </div>
+    <div class="callMeTitulo">
+        <h1>Solicite seu atendimento!</h1>
+        <h4>Teremos a satisfação em lhe atender!</h4>
+    </div>
+    <div class="formCallMe">
+        <form>
+            <h3>Preencha o formulário</h3>
+            <h4>Retornaremos o mais breve</h4></br>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="exampleInputText" placeholder="Seu nome..." required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" id="exampleInputemail" placeholder="Seu e-mail..." required>
+            </div>
+            <div class="mb-3">
+                <input type="text" maxlength="11" class="form-control" id="exampleInputPhone" placeholder="Número de telefone..." required>
+            </div>
+            
+            <button type="submit" class="btn btn-primary buttonSubmit">Enviar</button>
+        </form>
+    </div>
 </div>
+<footer>
+    &copy; Todos os direitos reservados a empresa - JHONN TEC – Consultoria em controle, automação e serviços
+</footer>
 </body>
 </html>
