@@ -143,14 +143,17 @@ form h4{
 .catServicoOne img{
     width: 100px;
     height: 100px;
+    margin-bottom: 15px;
 }
 .catServicoTwo img{
     width: 100px;
     height: 100px;
+    margin-bottom: 15px;
 }
 .catServicoTree img{
     width: 100px;
     height: 100px;
+    margin-bottom: 15px;
 }
 .cliente{
     padding-top: 4%;
@@ -232,4 +235,93 @@ footer{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+/*CONFIGURAÇÕES DA PÁGINA SOBRE*/
+.sobreDivs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+.sobreNos{
+    width: 70%;
+    background-color: #fff;
+    text-align: justify;
+}
+.sobreNos h5{
+    font-size: 40px;
+    border-bottom: 2px solid #cecece;
+    margin-bottom: 30px;
+}
+.politicaDivs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    padding: 5%;
+}
+.politicaOne{
+    width: 20%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #cecece;
+    padding: 10px;
+    gap: 15px;
+}
+.politicaOne img{
+    width: 50px;
+    height: 50px;
+}
+.politicaOne h5{
+    font-size: 40px;
+    text-align: center;
+}
+.politicaOne p{
+    text-align: justify;
+}
+.politicaTwo{
+    width: 20%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #cecece;
+    padding: 10px;
+    gap: 15px;
+}
+.politicaTwo img{
+    width: 50px;
+    height: 50px;
+}
+.politicaTwo h5{
+    font-size: 40px;
+    text-align: center;
+}
+.politicaTwo p{
+    text-align: justify;
+}
+.politicaTree{
+    width: 20%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #cecece;
+    padding: 10px;
+    gap: 15px;
+}
+.politicaTree img{
+    width: 50px;
+    height: 50px;
+}
+.politicaTree h5{
+    font-size: 40px;
+    text-align: center;
+}
+.politicaTree p{
+    text-align: justify;
 }
